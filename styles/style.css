@@ -1,0 +1,50 @@
+
+/* Font andText */
+
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* Changing the Page color*/
+html {
+  background-color: #00539F; /* Dark Blue */
+}
+
+
+/*Sorting The body Out*/
+body {
+  width: 600px;
+  margin: 0 auto; /* first value top and bottom = 0; ------left and right = auto(divides avaulable spaces(horizontal space) evenly or 0 auto o auto */
+  background-color: #FF9500;/* reddish orange */
+  padding: 0 20px 20px 20px; /* no padding at top ..... makes space around text */
+  border: 5px solid black; /*widht style and color */
+}
+
+
+/* Positioining and styling main page */
+h1 {
+  margin: 0; /*Remove deafult gap */
+  padding: 20px 0; /* top, bottom 20px, left right 0*/
+  color: #00539F; /* same as html color.. Dark blue*/
+  text-shadow: 3px 3px 1px black; /* 4 values: horizontal offset 3px; vertical offset 3px; blur radius 1px base color black*/
+}
+
+/*Centering the Image*/
+/* This image is assume to be smaller than 600px, otherwise use css and make the image width smalleg, 400px) */
+img {
+  display: block; /* unlike <body> image are inline element they need margins, give it a block lvel behaviour using block */
+  margin: 0 auto; /* sane reason as above*/
+}
